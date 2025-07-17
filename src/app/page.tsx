@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white font-sans antialiased">
       <Navigation />
-      <main>
+      <main className="overflow-hidden">
         <HeroSection />
         <AboutSection />
         <TechnologySection />
