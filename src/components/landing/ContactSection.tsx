@@ -298,22 +298,7 @@ export default function ContactSection() {
                 ))}
               </div>
               
-              <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-sm font-medium text-gray-500 mb-4">FOLLOW US</h4>
-                <div className="flex space-x-4">
-                  {['Twitter', 'Facebook', 'LinkedIn', 'Instagram'].map((social) => (
-                    <a
-                      key={social}
-                      href="#"
-                      className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-gray-600 hover:bg-cyan-50 hover:text-cyan-600 transition-colors duration-200 shadow-sm border border-gray-200"
-                      aria-label={social}
-                    >
-                      <span className="sr-only">{social}</span>
-                      <span className="font-medium">{social[0]}</span>
-                    </a>
-                  ))}
-                </div>
-              </div>
+             
               
               <div className="mt-12 bg-white/50 backdrop-blur-sm p-6 rounded-xl border border-white">
                 <h4 className="font-medium text-gray-900 mb-3">Need help with something else?</h4>
