@@ -8,41 +8,9 @@ const footerLinks = [
     links: [
       { name: "Features", href: "#features" },
       { name: "Pricing", href: "#pricing" },
-      { name: "Integrations", href: "#" },
-      { name: "Updates", href: "#" },
-      { name: "Roadmap", href: "#" },
-    ],
-  },
-  {
-    title: "Company",
-    links: [
-      { name: "About Us", href: "#" },
-      { name: "Careers", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Press", href: "#" },
       { name: "Contact", href: "#contact" },
     ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { name: "Documentation", href: "#" },
-      { name: "Help Center", href: "#" },
-      { name: "Guides", href: "#" },
-      { name: "API Status", href: "#" },
-      { name: "Webinars", href: "#" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      { name: "Privacy Policy", href: "#" },
-      { name: "Terms of Service", href: "#" },
-      { name: "Cookie Policy", href: "#" },
-      { name: "GDPR", href: "#" },
-      { name: "Compliance", href: "#" },
-    ],
-  },
+  }
 ];
 
 const socialLinks = [
@@ -148,12 +116,7 @@ export default function Footer() {
             
             <div className="h-5 w-px bg-gray-800"></div>
             
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-400 text-sm">English</span>
-              <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
+          
           </div>
         </div>
         
