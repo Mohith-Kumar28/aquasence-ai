@@ -299,7 +299,7 @@ export default function ContactSection() {
               </div>
               
              
-              
+            
               <div className="mt-12 bg-white/50 backdrop-blur-sm p-6 rounded-xl border border-white">
                 <h4 className="font-medium text-gray-900 mb-3">Need help with something else?</h4>
                 <p className="text-sm text-gray-600 mb-4">Visit our help center for FAQs and documentation.</p>
