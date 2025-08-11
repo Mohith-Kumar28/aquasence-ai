@@ -96,7 +96,7 @@ export default function TestimonialsSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">{testimonial.author}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.role}</p>
+                    {/* <p className="text-sm text-gray-500">{testimonial.role}</p> */}
                   </div>
                 </div>
                 

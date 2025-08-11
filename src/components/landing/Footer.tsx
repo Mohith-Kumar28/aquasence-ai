@@ -63,7 +63,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm mb-6 max-w-xs">
               Empowering aquaculture with AI-driven water quality monitoring and predictive analytics for sustainable fish farming.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
@@ -74,7 +74,7 @@ export default function Footer() {
                   {social.icon}
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {footerLinks.map((column) => (
