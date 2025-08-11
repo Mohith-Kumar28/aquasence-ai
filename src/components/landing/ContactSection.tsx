@@ -82,23 +82,17 @@ export default function ContactSection() {
     {
       icon: <Mail className="w-6 h-6 text-cyan-600" />,
       title: "Email us",
-      description: "We&apos;ll respond as soon as possible",
+      description: "We will respond as soon as possible",
       value: "contact@aquasense.ai",
       href: "mailto:contact@aquasense.ai"
     },
-    {
-      icon: <Phone className="w-6 h-6 text-blue-600" />,
-      title: "Call us",
-      description: "Mon-Fri from 9am to 5pm",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
-    },
+
     {
       icon: <MapPin className="w-6 h-6 text-indigo-600" />,
       title: "Visit us",
       description: "Our office location",
-      value: "123 Aqua Way, San Francisco, CA 94107",
-      href: "https://maps.google.com"
+      value: "1 Crofton Road, London, United Kingdom, E13 8QT",
+      href: ""
     }
   ];
 
