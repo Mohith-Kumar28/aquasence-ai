@@ -83,8 +83,8 @@ export default function ContactSection() {
       icon: <Mail className="w-6 h-6 text-cyan-600" />,
       title: "Email us",
       description: "We will respond as soon as possible",
-      value: "contact@aquasense.ai",
-      href: "mailto:contact@aquasense.ai"
+      value: "arturas@aquasense.ai",
+      href: "mailto:arturas@aquasense.ai"
     },
 
     {

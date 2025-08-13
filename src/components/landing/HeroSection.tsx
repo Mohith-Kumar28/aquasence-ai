@@ -93,19 +93,14 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
+              
               <Button 
                 onClick={() => scrollToSection('contact')}
                 className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 Get Started - It&apos;s Free
               </Button>
-              <Button 
-                variant="outline"
-                className="px-8 py-6 text-lg font-medium rounded-xl border-2 border-gray-300 hover:bg-gray-50 transition-colors duration-300 flex items-center justify-center gap-2"
-              >
-                <Play className="w-5 h-5" fill="currentColor" />
-                Watch Demo
-              </Button>
+             
             </motion.div>
 
             {/* Stats */}

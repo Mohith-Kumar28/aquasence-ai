@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Cpu, Wifi, Cloud, Database, ShieldCheck, BarChart2 } from "lucide-react";
+import Link from "next/link";
 
 export default function TechnologySection() {
   const technologies = [
@@ -93,12 +94,11 @@ export default function TechnologySection() {
               Join hundreds of aquaculture professionals who trust AquaSense AI for their water quality monitoring needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="mailto:arturas@aquasense.ai">
               <button className="px-8 py-3 bg-white text-cyan-700 font-medium rounded-lg hover:bg-gray-100 transition-colors duration-300">
-                Request a Demo
-              </button>
-              <button className="px-8 py-3 border-2 border-white/30 text-white font-medium rounded-lg hover:bg-white/10 transition-colors duration-300">
                 Contact Sales
-              </button>
+              </button></Link>
+              
             </div>
           </div>
         </motion.div>

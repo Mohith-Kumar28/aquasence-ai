@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown, ChevronUp, MessageCircle, Mail, Phone } from "lucide-react";
+import Link from "next/link";
 
 const faqs = [
   {
@@ -135,27 +136,10 @@ export default function FaqSection() {
                     <Mail className="w-5 h-5 mr-2 text-cyan-600" />
                     Email Support
                   </a>
-                  <a 
-                    href="tel:+18005551234" 
-                    className="flex items-center justify-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium"
-                  >
-                    <Phone className="w-5 h-5 mr-2" />
-                    Call Us
-                  </a>
+                 
                 </div>
                 
-                <div className="mt-8 pt-6 border-t border-gray-100">
-                  <h4 className="text-sm font-medium text-gray-500 mb-3">VISIT OUR HELP CENTER</h4>
-                  <a 
-                    href="#" 
-                    className="inline-flex items-center text-cyan-600 font-medium hover:text-cyan-700 hover:underline"
-                  >
-                    Browse Help Center
-                    <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -178,16 +162,12 @@ export default function FaqSection() {
               Join the aquaculture revolution and take control of your water quality monitoring today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="mailto:arturas@aquasense.ai">
               <button className="px-8 py-3 bg-white text-cyan-700 font-medium rounded-lg hover:bg-gray-100 transition-colors duration-300">
-                Start Free Trial
-              </button>
-              <button className="px-8 py-3 border-2 border-white/30 text-white font-medium rounded-lg hover:bg-white/10 transition-colors duration-300">
-                Contact Sales
-              </button>
+               Schedule a call
+              </button></Link>
             </div>
-            <p className="text-cyan-100 text-sm mt-4">
-              Have questions? <a href="#" className="text-white font-medium hover:underline">Schedule a call</a> with our team.
-            </p>
+          
           </div>
         </motion.div>
       </div>

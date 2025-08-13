@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Fish, Droplets, Factory, Leaf, Zap, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export default function UseCasesSection() {
   const useCases = [
@@ -142,9 +143,10 @@ export default function UseCasesSection() {
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Schedule a Call</h4>
                 <p className="text-cyan-100 text-sm">Speak with our aquaculture experts to discuss your specific requirements.</p>
+                <Link href="mailto:arturas@aquasense.ai">
                 <button className="mt-4 text-sm font-medium text-white hover:underline flex items-center">
                   Book a call <ChevronRight className="w-4 h-4 ml-1" />
-                </button>
+                </button></Link>
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10">
@@ -155,9 +157,10 @@ export default function UseCasesSection() {
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Live Demo</h4>
                 <p className="text-cyan-100 text-sm">See AquaSense AI in action with a personalized demo of our platform.</p>
+                <Link href="mailto:arturas@aquasense.ai">
                 <button className="mt-4 text-sm font-medium text-white hover:underline flex items-center">
                   Watch demo <ChevronRight className="w-4 h-4 ml-1" />
-                </button>
+                </button></Link>
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10">
@@ -168,9 +171,10 @@ export default function UseCasesSection() {
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Free Trial</h4>
                 <p className="text-cyan-100 text-sm">Try AquaSense AI risk-free with our 14-day trial. No credit card required.</p>
+                <Link href="mailto:arturas@aquasense.ai">
                 <button className="mt-4 text-sm font-medium text-white hover:underline flex items-center">
-                  Start free trial <ChevronRight className="w-4 h-4 ml-1" />
-                </button>
+                  Start free trial <ChevronRight className="w-4 h-4 ml-1" /> 
+                </button></Link>
               </div>
             </div>
           </div>

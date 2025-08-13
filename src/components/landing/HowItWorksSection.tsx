@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Camera, Wifi, Smartphone, BarChart3, Zap, CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function HowItWorksSection() {
   const steps = [
@@ -123,12 +124,11 @@ export default function HowItWorksSection() {
               Join hundreds of aquaculture professionals who trust AquaSense AI for their water quality monitoring needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="mailto:arturas@aquasense.ai">
               <button className="px-8 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-medium rounded-lg hover:shadow-lg hover:from-cyan-700 hover:to-blue-700 transition-all duration-300">
-                Get Started Free
-              </button>
-              <button className="px-8 py-3 border-2 border-gray-200 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors duration-300">
-                Schedule a Demo
-              </button>
+                Contact Sales
+              </button></Link>
+           
             </div>
             
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-500">

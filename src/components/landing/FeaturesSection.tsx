@@ -2,7 +2,7 @@
 'use client'
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Activity, AlertCircle, Zap, BarChart2, Smartphone, Server, Clock } from "lucide-react";
+import { Activity, AlertCircle, Zap, BarChart2, Smartphone, Server, Clock, Link } from "lucide-react";
 
 export default function FeaturesSection() {
   const [activeTab, setActiveTab] = useState("monitoring");
@@ -210,12 +210,10 @@ export default function FeaturesSection() {
               Join our early adopters and get 3 months free when you sign up for an annual plan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="mailto:arturas@aquasense.ai">
               <button className="px-8 py-3 bg-white text-cyan-700 font-medium rounded-lg hover:bg-gray-100 transition-colors duration-300">
-                Start Free Trial
-              </button>
-              <button className="px-8 py-3 border-2 border-white/30 text-white font-medium rounded-lg hover:bg-white/10 transition-colors duration-300">
-                Schedule a Demo
-              </button>
+                Contact Sales
+              </button></Link>
             </div>
           </div>
         </motion.div>

@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Star, Quote } from "lucide-react";
+import Link from "next/link";
 
 export default function TestimonialsSection() {
   const testimonials = [
@@ -150,16 +151,13 @@ export default function TestimonialsSection() {
               Start your 14-day free trial today. No credit card required.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="mailto:arturas@aquasense.ai">
               <button className="px-8 py-3 bg-white text-cyan-700 font-medium rounded-lg hover:bg-gray-100 transition-colors duration-300">
-                Get Started Free
-              </button>
-              <button className="px-8 py-3 border-2 border-white/30 text-white font-medium rounded-lg hover:bg-white/10 transition-colors duration-300">
-                Schedule a Demo
-              </button>
+               Schedule a Demo
+              </button></Link>
+             
             </div>
-            <p className="text-cyan-100 text-sm mt-4">
-              Have questions? <a href="#" className="text-white font-medium hover:underline">Contact our sales team</a>
-            </p>
+           
           </div>
         </motion.div>
       </div>
